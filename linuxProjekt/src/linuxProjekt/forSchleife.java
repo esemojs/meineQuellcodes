@@ -16,7 +16,7 @@ public class forSchleife {
 		for ( i=i; i<=z ; i +=1) {
 			System.out.println("Zähle " + i);
 		};
-		
+		System.out.println("Bingooooooooo");
 	}
 
 }
