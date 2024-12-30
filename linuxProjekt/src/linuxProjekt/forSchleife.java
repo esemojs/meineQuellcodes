@@ -10,8 +10,10 @@ public class forSchleife {
 		Scanner eingabe = new Scanner(System.in);
 		System.out.println("Eingabe Ende: ");
 		int z = eingabe.nextInt();
+		System.out.println("Eingabe Start");
+		int i = eingabe.nextInt();
 		
-		for (int i=1; i<=z ; i +=1) {
+		for ( i=i; i<=z ; i +=1) {
 			System.out.println("Zähle " + i);
 		};
 		
