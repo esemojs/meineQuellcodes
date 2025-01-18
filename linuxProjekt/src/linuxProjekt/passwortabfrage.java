@@ -11,7 +11,7 @@ public class passwortabfrage {
 		do {
 			System.out.println("E-Mail Adresse eingeben");
 			email = eingabe.next().toLowerCase();
-			
+
 			System.out.println("Passwort eingeben");
 			passwort = eingabe.nextInt();
 			--fehler;
@@ -20,12 +20,18 @@ public class passwortabfrage {
 				if (0 == fehler) {
 					System.err.println("Ihr Konto wurde gesperrt");
 					System.out.println("Wenden Sie sich an den Administrator");
-					
+
 					System.exit(0);
 				}
 			}
 
 		} while ((passwort != 100) || (!(email.equals("esemojs"))));
+		/*
+		 * || limitiert die Bedingung. Wenn eins falsch ist, dann wird "do" weiter
+		 * ausgeführt. Mein Fehler mit && war, dass wenn eins false war, also eine
+		 * Eingabe richtig, hat der Ausdruck insgesamt false gegeben und der Codebock
+		 * wurde nach unten verlassen.
+		 */
 		System.out.println("Sie werden eingeloggt");
 	}
 }
