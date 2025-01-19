@@ -34,6 +34,7 @@ public class durchschnitt {
 		System.out.println("Ergebnis");
 		durchschnitt = summe/ counter;
 		System.err.println(durchschnitt);
+		
 	}
 
 }
