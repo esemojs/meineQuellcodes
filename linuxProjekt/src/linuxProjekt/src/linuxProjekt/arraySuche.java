@@ -25,7 +25,7 @@ public class arraySuche {
 				return; //wenn die Bedingung true wird, also [i] den die selbe Zahl findet, wie der wert dann wird mit return die schleife beendet. Sonst geht die schleife so lange, bis sie false ist. 
 			}
 		}
-		System.out.println("Falschhhhh");
+		System.out.println("Falschhh");
 	}
 
 }
